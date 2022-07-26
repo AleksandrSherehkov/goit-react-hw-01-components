@@ -1,0 +1,22 @@
+.transaction {
+  width: 100%;
+  border: 1px solid #eef107;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+thead {
+  background-color: #1b63e9;
+  color: #ffffff;
+}
+
+tr {
+  text-align: center;
+  height: 45px;
+}
+
+tr:nth-child(2n) {
+  background: #0082ff;
+
+  background: linear-gradient(to bottom, #0082ff 0%, #ffeb00 68%, #fffc00 100%);
+}
