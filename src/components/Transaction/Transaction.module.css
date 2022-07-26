@@ -1,5 +1,5 @@
 .transaction {
-  width: 100%;
+  width: 400px;
   border: 1px solid #eef107;
   border-radius: 5px;
   box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.75);
@@ -7,7 +7,7 @@
 
 thead {
   background-color: #1b63e9;
-  color: #ffffff;
+  color: #faf614;
 }
 
 tr {

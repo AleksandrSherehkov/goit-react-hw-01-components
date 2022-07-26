@@ -10,7 +10,7 @@ import transactions from '../data/transactions.json';
 const App = () => {
   return (
     <div>
-      <Section title={"Task-1 'Social network profile'"}>
+      <Section title={'1 - Профіль соціальної мережі'}>
         <Profile
           username={user.username}
           tag={user.tag}
@@ -20,7 +20,7 @@ const App = () => {
         />
       </Section>
 
-      <Section title={"Task-2 'Statistics section'"}>
+      <Section title={'2- Секція статистики'}>
         <Statistics title="Upload stats" stats={stats} />
       </Section>
 
@@ -28,11 +28,11 @@ const App = () => {
         <Statistics stats={stats} />
       </Section>
 
-      <Section title={"Task-3 'Friend list'"}>
+      <Section title={'3 - Список друзів'}>
         <FriendList friends={friends} />
       </Section>
 
-      <Section title={"Task-4 'Transaction history'"}>
+      <Section title={'4 - Історія транзакцій'}>
         <Transaction transactions={transactions} />
       </Section>
     </div>
